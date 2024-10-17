@@ -33,7 +33,7 @@ ul li:nth-child(3) {
     background-color: #21262D;
 }
 /* : not(selector) Pseudo-class */
-P:not(: first-of-type)
+P:not(:first-of-type)
 {
     text-decoration:underline;
 }
@@ -46,9 +46,9 @@ a::after {
     content:pen ;
 }
 /* ::first-letter Pseudo-elements */
-p:: ::first-letter
+p::first-letter
 {
     font-size: 200%;
-    color: #ff7b72;
+    color:#FF7B72
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
